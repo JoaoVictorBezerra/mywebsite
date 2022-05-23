@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Footer from '../src/Components/Footer'
 import styles from '../styles/Home/Home.module.css'
+import Link from '../src/Components/Links'
 
 export default function Home() {
   return (
@@ -14,11 +15,27 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.presentation}>
           <Image src="/myface.png" alt="João Victor" width={215} height={215} />
-          <div>
+          <div className={styles.presentationText}>
             <h1> João Victor </h1>
             <p>Desenvolvedor Front-End.</p>
-            <Image src="/myface.png" alt="João Victor" width={25} height={25} />
-            <Image src="/myface.png" alt="João Victor" width={25} height={25} />
+            <div className={styles.presentationIcons}>
+              <Link href="https://github.com/JoaoVictorBezerra" target="_blank"><Image src="/github.png" alt="João Victor" width={30} height={30} /></Link>
+              <Link href="https://www.linkedin.com/in/joão-victor-a62b62204/" target="_blank"><Image src="/linkedin.png" alt="João Victor" width={30} height={30} /></Link>
+            </div>
+          </div>
+        </div>
+        <div className={styles.experience}>
+          <div className={styles.gridExperience}>
+            <h3>3° Ciclo</h3>
+            <p>Sistemas de Informação</p>
+          </div>
+          <div className={styles.gridExperience}>
+            <h3>1° Ano</h3>
+            <p>Atuando como Suporte de TI</p>
+          </div>
+          <div className={styles.gridExperience}>
+            <h3>5+</h3>
+            <p>Tecnologias usadas</p>
           </div>
         </div>
       </main>
