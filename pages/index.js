@@ -40,8 +40,12 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.buttons}>
-          <Link href="https://www.google.com" target="_blank"><Button>Download CV <Image src="/download.png" alt="Download Icon" width={15} height={13}/></Button></Link>
-          <Link href="https://www.google.com" target="_blank"><Button>Habilidades</Button></Link>
+          <Link href="https://www.google.com" target="_blank"><Button>Download CV <Image src="/download.png" alt="Download Icon" width={15} height={13} /></Button></Link>
+          <Link href="https://www.google.com" target="_blank"><Button>Contato</Button></Link>
+        </div>
+        <div className={styles.menuChoice}>
+            <p>Portfólio</p>
+            <p>Habilidades</p>
         </div>
       </main>
       <Footer />
