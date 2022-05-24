@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Footer from '../src/Components/Footer'
 import styles from '../styles/Home/Home.module.css'
 import Link from '../src/Components/Links'
+import Button from '../src/Components/Buttons'
 
 export default function Home() {
   return (
@@ -37,6 +38,10 @@ export default function Home() {
             <h3>5+</h3>
             <p>Tecnologias usadas</p>
           </div>
+        </div>
+        <div className={styles.buttons}>
+          <Link href="https://www.google.com" target="_blank"><Button>Download CV <Image src="/download.png" alt="Download Icon" width={15} height={13}/></Button></Link>
+          <Link href="https://www.google.com" target="_blank"><Button>Habilidades</Button></Link>
         </div>
       </main>
       <Footer />

@@ -66,3 +66,10 @@
   width: 148px;
   margin: 0rem;
 }
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.buttons a {
+  margin: 1rem;
+}
