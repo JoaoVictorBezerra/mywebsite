@@ -1,0 +1,96 @@
+.container {
+  font-family: 'Poppins', sans-serif;
+  padding: 6rem 2rem 2rem 2rem;
+  background-color: #0C151D;
+  color: white;
+}
+
+.main {
+  padding: 4rem 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.presentationText {
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding: 0rem 0rem 0rem 1.5rem;
+  text-align: center;
+}
+
+.presentationText h1 {
+  font-size: 46px;
+  margin: 0rem 0rem 0.1rem 0rem;
+}
+
+.presentationText p {
+  font-weight: bold;
+  font-size: 16px;
+  color: #A3ABB2;
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 0.5rem;
+}
+
+.presentationIcons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.experience {
+  display: flex;
+  flex-direction: row;
+}
+
+.gridExperience {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #A3ABB2;
+  font-weight: bold;
+  margin: 0rem 1.5rem 0rem 1.5rem;
+}
+.gridExperience h3 {
+  margin: 3.5rem 0rem 0rem 0rem;
+}
+.gridExperience p {
+  width: 148px;
+  margin: 0rem;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.buttons a {
+  margin: 1rem;
+}
+.menuChoice {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: #171F26;
+  color: #A3ABB2;
+  border-radius: 20px;
+  width: 575px;
+  height: 80px;
+}
+.menuChoice p {
+  padding: 1rem 5rem 1rem 5rem;
+  border-radius: 10px;
+  width: 253px;
+  text-align: center;
+}
+.menuChoice p:hover {
+  background-color: #0C151D;
+}
