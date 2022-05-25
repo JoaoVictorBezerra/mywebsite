@@ -4,6 +4,7 @@ import Footer from '../src/Components/Footer'
 import styles from '../styles/Home/Home.module.css'
 import Link from '../src/Components/Links'
 import Button from '../src/Components/Buttons'
+import Cards from '../src/Components/Cards'
 
 export default function Home() {
   return (
@@ -44,9 +45,10 @@ export default function Home() {
           <Link href="https://www.google.com" target="_blank"><Button>Contato</Button></Link>
         </div>
         <div className={styles.menuChoice}>
-            <p>Portfólio</p>
-            <p>Habilidades</p>
+           <Link href="www.google.com"><p>Portfólio</p></Link>
+           <Link href="www.google.com"><p>Habilidades</p></Link>
         </div>
+        <Cards/>
       </main>
       <Footer />
     </div>

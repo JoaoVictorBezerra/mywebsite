@@ -1,0 +1,29 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    background: #171F26;
+    border-radius: 15px;
+    height: 310px;
+    width: 250px;
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 20px;
+}
+
+.card:hover {
+    background-color: #FFE071;
+    color: #3D3D3D;
+}
