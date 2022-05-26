@@ -94,3 +94,7 @@
 .menuChoice p:hover {
   background-color: #0C151D;
 }
+
+@media only screen and (max-device-width: 450px) and (max-device-height: 950px) {
+   .container { width: 600px; } 
+  }
