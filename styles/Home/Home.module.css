@@ -59,20 +59,25 @@
   font-weight: bold;
   margin: 0rem 1.5rem 0rem 1.5rem;
 }
+
 .gridExperience h3 {
   margin: 3.5rem 0rem 0rem 0rem;
 }
+
 .gridExperience p {
   width: 148px;
   margin: 0rem;
 }
+
 .buttons {
   display: flex;
   flex-direction: row;
 }
+
 .buttons a {
   margin: 1rem;
 }
+
 .menuChoice {
   display: flex;
   justify-content: space-around;
@@ -85,16 +90,29 @@
   height: 80px;
   margin: 0rem 0rem 1rem 0rem;
 }
+
 .menuChoice p {
   padding: 1rem 5rem 1rem 5rem;
   border-radius: 10px;
-  width: 253px;
+  width: 263px;
   text-align: center;
 }
+
 .menuChoice p:hover {
   background-color: #0C151D;
 }
 
 @media only screen and (max-device-width: 450px) and (max-device-height: 950px) {
-   .container { width: 600px; } 
+  .container {
+    width: 600px;
   }
+
+  .menuChoice {
+    width: 550px;
+    height: 80px;
+  }
+
+  .menuChoice p {
+    width: 250px;
+  }
+}

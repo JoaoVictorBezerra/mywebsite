@@ -15,8 +15,8 @@
     background: #171F26;
     border-radius: 15px;
     color: #A3ABB2;
-    height: 310px;
-    width: 250px;
+    width: 362px;
+    height: 226px;
     text-align: center;
 }
 
@@ -29,3 +29,16 @@
     background-color:rgba(255, 224, 113, 1);
     color: #3D3D3D;
 }
+@media only screen and (max-device-width: 450px) and (max-device-height: 950px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        width: 340px;
+        height: 210px;
+    }
+    .card p {
+        padding: 0rem 0.3rem 0rem 0.3rem;
+    }
+  }

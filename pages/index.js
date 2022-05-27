@@ -21,7 +21,8 @@ export default function Home() {
             <h1> João Victor </h1>
             <p>Desenvolvedor Front-End.</p>
             <div className={styles.presentationIcons}>
-              <Link href="https://github.com/JoaoVictorBezerra" target="_blank"><Image src="/github.png" alt="João Victor" width={30} height={30} /></Link>
+            <Link href="https://github.com/JoaoVictorBezerra" target="_blank"><Image src="/github.png" alt="João Victor" width={30} height={30} /></Link>
+              <Link href="https://instagram.com/jvic01_" target="_blank"><Image src="/instagram.png" alt="João Victor" width={30} height={30} /></Link>
               <Link href="https://www.linkedin.com/in/joão-victor-a62b62204/" target="_blank"><Image src="/linkedin.png" alt="João Victor" width={30} height={30} /></Link>
             </div>
           </div>
@@ -33,11 +34,11 @@ export default function Home() {
           </div>
           <div className={styles.gridExperience}>
             <h3>1° Ano</h3>
-            <p>Atuando como Suporte de TI</p>
+            <p>Atuando como Analista de DB</p>
           </div>
           <div className={styles.gridExperience}>
             <h3>5+</h3>
-            <p>Tecnologias usadas</p>
+            <p>Ferramentas utilizadas</p>
           </div>
         </div>
         <div className={styles.buttons}>
